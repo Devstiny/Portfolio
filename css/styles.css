@@ -1,0 +1,96 @@
+/* FONTS */
+@font-face {
+  font-family: Inter;
+  src: url(./../assets/fonts/Inter/Inter-Regular.ttf);
+}
+
+/* UNIVERSAL SELECTOR */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-main: #111111;
+  --text-primary: #ffffff;
+  --text-secondary: #c8f05b;
+  --button: #333333;
+  --cards: #222222;
+  --aside-background: #1a1a1a;
+  --button-hover: #c0d479;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-main);
+  font-family: Arial, sans-serif;
+  color: var(--text-primary);
+  display: flex;
+}
+
+.aside {
+  position: sticky;
+  top: 0px;
+  width: 350px;
+  height: 100vh;
+  background-color: var(--aside-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-main);
+}
+
+.profilepic {
+  width: 30%;
+  border-radius: 100%;
+  border: 10px solid var(--text-secondary);
+}
+
+.smallcaps {
+  font-variant: small-caps;
+}
+
+.nobold {
+  font-weight: 100;
+}
+
+.name {
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+.job {
+  margin-top: 0px;
+  font-size: 1.1rem;
+  margin-bottom: 3px;
+}
+
+.nav {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav li {
+  background-color: var(--button);
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.nav a {
+  color: var(--text-primary);
+  font-variant: small-caps;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+}

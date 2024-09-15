@@ -25,50 +25,54 @@
       </ul>
     </aside>
     <main class="main marginleft">
+      <a href="#inicio"><img src="./assets/images/scroll-top-img.png" class="scrolltop" alt="" /></a>
       <section id="inicio">
-        <h1 class="nobold">Hola!!!</h1>
-        <h2 class="nobold">Soy <span>Pepito Pérez</span></h2>
+        <h1 class="nobold h1size">Hola!!!</h1>
+        <h2 class="nobold h2size">Soy <span>Pepito Pérez</span></h2>
         <p>Aquí contamos un poco quién soy, pero poco y que me gusta mucho el mundo web y que soy trabajador</p>
-        <p>
+        <p class="margintop">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos veniam reprehenderit adipisci odio repudiandae. Culpa voluptate natus eos perferendis explicabo harum fuga recusandae
           excepturi, minus officiis. Adipisci recusandae sequi odio?
         </p>
-        <button>Sobre mí <i class="home__fas fas fa-user"></i></button>
+        <!-- <a href="#0" class="button">Sobre mí <i class="home__fas fas fa-user i__color"></i></a> -->
+        <button class="button">Sobre mí <i class="home__fas fas fa-user i__color"></i></button>
       </section>
-      <section id="sobremi">
-        <h1>Sobre <span>mí</span></h1>
-        <article>
-          <ul>
-            <li>Nombre: <span>Pepito Pérez</span></li>
-            <li>Edad: <span>22</span></li>
-            <li>Formación: <span>Técnico Superior en DAW</span></li>
-            <li>Perfil: <span>Front-end Developer</span></li>
-            <li>Idioma: <span>Inglés</span></li>
-            <li>Hobbies: <span>Cazar gamusinos...</span></li>
-          </ul>
-          <button>Descarga CV <i class="aboutdata__fas fas fa-download"></i></button>
-        </article>
-        <article>
-          <div class="card">
-            <p>2+</p>
-            <p>Años de Experiencia</p>
-          </div>
-          <div class="card">
-            <p>125+</p>
-            <p>Proyectos Realizados</p>
-          </div>
-          <div class="card">
-            <p>30+</p>
-            <p>Clientes</p>
-          </div>
-          <div class="card">
-            <p>2+</p>
-            <p>Premios ganados</p>
-          </div>
-        </article>
+      <section id="sobremi" class="wrap">
+        <h1 class="h1size nobold">Sobre <span>mí</span></h1>
+        <div class="row aboutme__content">
+          <article>
+            <ul class="aboutme__list">
+              <li>Nombre: <span>Pepito Pérez</span></li>
+              <li>Edad: <span>22</span></li>
+              <li>Formación: <span>Técnico Superior en DAW</span></li>
+              <li>Perfil: <span>Front-end Developer</span></li>
+              <li>Idioma: <span>Inglés</span></li>
+              <li>Hobbies: <span>Cazar gamusinos...</span></li>
+            </ul>
+            <button class="button">Descarga CV <i class="aboutdata__fas fas fa-download"></i></button>
+          </article>
+          <article class="cards">
+            <div class="card smallcaps">
+              <p class="i__color card__number">2+</p>
+              <p class="card__subtitle">Años de Experiencia</p>
+            </div>
+            <div class="card smallcaps">
+              <p class="i__color card__number">125+</p>
+              <p class="card__subtitle">Proyectos Realizados</p>
+            </div>
+            <div class="card smallcaps">
+              <p class="i__color card__number">30+</p>
+              <p class="card__subtitle">Clientes</p>
+            </div>
+            <div class="card smallcaps">
+              <p class="i__color card__number">2+</p>
+              <p class="card__subtitle">Premios ganados</p>
+            </div>
+          </article>
+        </div>
       </section>
       <section id="formacion">
-        <h1>Mi <span>Formación</span></h1>
+        <h1 class="h1size">Mi <span>Formación</span></h1>
         <article>
           <div>
             <i class="fas fa-graduation-cap"></i>
@@ -85,20 +89,20 @@
         <article></article>
       </section>
       <section id="miportfolio">
-        <h1>Mi <span>Portfolio</span></h1>
+        <h1 class="h1size">Mi <span>Portfolio</span></h1>
         <article>
-          <a href=""><img src="./assets/images/oscuro.png" alt="" /></a>
-          <a href=""><img src="./assets/images/claro.png" alt="" /></a>
-          <a href=""><img src="./assets/images/toledo.png" alt="" /></a>
-          <a href=""><img src="./assets/images/floristeria.png" alt="" /></a>
-          <a href=""><img src="./assets/images/mosca.png" alt="" /></a>
-          <a href=""><img src="./assets/images/pasteleria.png" alt="" /></a>
-          <a href=""><img src="./assets/images/travels.png" alt="" /></a>
-          <a href=""><img src="./assets/images/paris.png" alt="" /></a>
+          <a href=""><img src="./assets/images/oscuro.png" alt="" class="portfolio__image" /></a>
+          <a href=""><img src="./assets/images/claro.png" alt="" class="portfolio__image" /></a>
+          <a href=""><img src="./assets/images/toledo.png" alt="" class="portfolio__image" /></a>
+          <a href=""><img src="./assets/images/floristeria.png" alt="" class="portfolio__image" /></a>
+          <a href=""><img src="./assets/images/mosca.png" alt="" class="portfolio__image" /></a>
+          <a href=""><img src="./assets/images/pasteleria.png" alt="" class="portfolio__image" /></a>
+          <a href=""><img src="./assets/images/travels.png" alt="" class="portfolio__image" /></a>
+          <a href=""><img src="./assets/images/paris.png" alt="" class="portfolio__image" /></a>
         </article>
       </section>
       <section id="contacto">
-        <h1><span>Contacto</span></h1>
+        <h1 class="h1size"><span>Contacto</span></h1>
         <div>
           <article>
             <p><i class="fas fa-envelope"></i> pepitoperez@gmail.com</p>
@@ -111,7 +115,7 @@
             <input type="email" placeholder="Correo" required />
             <input type="text" placeholder="Proyecto" required />
             <textarea name="Texto" id="" placeholder="Texto" required></textarea>
-            <button>Enviar <i class="fas fa-paper-plane"></i></button>
+            <button class="button">Enviar <i class="fas fa-paper-plane"></i></button>
           </form>
         </div>
       </section>

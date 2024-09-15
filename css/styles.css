@@ -175,20 +175,30 @@ span {
 
 .wrap {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 
 .row {
+  /* border: 1px solid red; */
 }
 
 .aboutme__content {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.aboutme__article {
   flex-grow: 2;
   flex-shrink: 1;
   flex-basis: 300px;
-  gap: 40px;
-  justify-content: start;
+}
+
+.aboutme__article2 {
+  flex-grow: 4;
+  flex-shrink: 1;
+  flex-basis: 700px;
 }
 
 .aboutme__list {
@@ -202,6 +212,7 @@ span {
   gap: 15px;
   max-width: 1500px;
   width: 100%;
+  /* justify-content: center; */
 }
 
 .card {
